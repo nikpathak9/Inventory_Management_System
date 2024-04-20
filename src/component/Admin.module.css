@@ -1,0 +1,32 @@
+.inventoryStats {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 25vh;
+  width: 100%;
+  text-align: left;
+}
+
+.inventoryStats p {
+  border: solid white 0.5px;
+  border-radius: 10px;
+}
+
+.inventoryTableHeader {
+  width: 100%;
+  display: flex;
+  border: solid 0.5px white;
+  gap: 30px;
+}
+
+th,
+td {
+  font-size: 1.5rem;
+  height: 5vh;
+  text-align: left;
+  width: 15vw;
+}
+
+p div {
+  font-size: 40px;
+}
